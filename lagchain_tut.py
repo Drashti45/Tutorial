@@ -10,9 +10,6 @@ from langchain.memory import ConversationBufferMemory
 def practice():
   prompt = PromptTemplate.from_template("What is the capital of {place}?")
   llm = OpenAI(temperature=0.3)
-
-
-  
   
   chain = LLMChain(llm=llm, prompt=prompt)
   
