@@ -15,3 +15,7 @@ llm.invoke(text)
 
 chat_model.invoke(messages)
 # >> AIMessage(content="Socks O'Color")
+
+
+
+
