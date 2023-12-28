@@ -7,7 +7,7 @@ llm = OpenAI(openai_api_key="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
 chat_model = ChatOpenAI(openai_api_key="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")
 
 
-text = "What would be a good company name for a company that makes colorful socks?"
+text = "What would be a good company names for a company that makes colorful shoes?"
 messages = [HumanMessage(content=text)]
 
 llm.invoke(text)
